@@ -26,7 +26,7 @@ class PetClass{
     }
 }
 
-class Dog implements PetInterface{
+class Dogs implements PetInterface{
     //sayHello: () => "Hola desde Dog";
     sayHello(){
         return "Hola desde Dog";

@@ -11,6 +11,7 @@
     "start:functions" : "tsc basics/functions.ts --outdir dist/ && node dist/functions.js",
     "start:namespace" : "tsc advanced/namespaces/namespace.ts --outFile dist/namespace.js && node dist/namespace.js",
     "start:namespaces" : "tsc advanced/namespaces/namespace.ts advanced/namespaces/index.ts --outFile dist/namespaces.js && node dist/namespaces.js",
+    "start:module" : "tsc advanced/modules/index.ts --outdir dist/module.js && node dist/module.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

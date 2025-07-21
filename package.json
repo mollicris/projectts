@@ -13,6 +13,7 @@
     "start:namespaces" : "tsc advanced/namespaces/namespace.ts advanced/namespaces/index.ts --outFile dist/namespaces.js && node dist/namespaces.js",
     "start:module" : "tsc advanced/modules/index.ts --outdir dist/module.js && node dist/module.js",
     "start:generic" : "tsc advanced/generics.ts --outdir dist/ && node dist/generics.js",
+    "start:typeC" : "tsc advanced/typeCompability.ts --outdir dist/ && node dist/typeCompability.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
